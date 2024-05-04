@@ -1,0 +1,137 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+:root{ font-size: 62.5%;
+font-family: 'Mulish', sans-serif;}
+
+.page {  
+max-width: 43.0rem;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+
+header{ display: flex;
+align-items: center;
+gap: 2.5rem;
+background: #065E7C;
+}
+
+.logo{ padding-top: 1.6rem;
+padding-left: 2.8rem;
+padding-bottom: 1.6rem;}
+
+.input-wrapper label { width: 1px;
+height: 1px;
+position: absolute;
+overflow: hidden;
+}
+
+.input-wrapper { padding-top: 1.6rem;
+padding-bottom: 1.6rem;}
+
+.input-wrapper input { width: 100%;
+padding: 1.2rem;
+border-radius: 0.5rem ;
+background: #57a5be;
+font-family: 'Mulish', sans-serif;
+border: 0;
+
+ 
+}
+
+.input-wrapper input::placeholder { color: aliceblue;}
+
+
+
+.headerimg{ padding: 1.6rem 2.5rem;
+cursor: pointer;
+}
+
+h1{ margin-top: 3.1rem;
+margin-bottom: 0.8rem;
+font-size: 2.4rem;
+padding-left: 2.3rem;
+font-weight: bold;}
+
+.button { display: flex;
+gap: 1.2rem;
+margin-bottom: 3.1rem;
+padding-left: 2.3rem;
+}
+
+
+
+
+.sidebar{ display: flex;
+gap: 1.6rem;
+margin-bottom: 3.2rem;
+padding-left: 2.3rem;}
+
+footer{ text-align: center;
+padding: 2.6rem 1.6rem;
+font-size: 1.6rem;
+background: #387E96;
+color: white;}
+
+p { font-size: 1.4rem;
+  }
+
+h2 { font-size: 1.8rem;
+  font-weight: bold;}
+
+main p { font-size: 1.6rem;
+  padding-left: 2.3rem;}
+
+h3 { margin-top: 3.2rem;
+margin-bottom: 3.2rem;
+font-size: 2.4rem;
+padding-left: 2.3rem;
+font-weight: bold;}
+
+
+
+
+header form { flex: 1;}
+
+main img { width: 100%;}
+
+button { cursor: pointer;
+ }
+
+main { max-width: 43.0rem;}
+
+ 
+ 
+@media (min-width: 1120px)  {
+  .page { max-width: 1200px;
+margin: 0 auto;}
+
+.flex { display: flex;}
+
+#catimg{ width: 75.0rem;
+height: 40.5rem;}
+
+img 
+
+.headerimg { height: 5.0rem;
+width: 5.0rem;
+overflow: hidden;
+}
+
+
+.sidebarflex p { width: 21.5rem;
+height: 5.4rem;}
+
+footer { margin-top: 3.9rem;
+  max-width: 1200px;
+margin: 0 auto;}
+
+main p { margin-bottom: 3.9rem;}
+
+.flex3 { padding-left: 350px; }
+
+}
+
